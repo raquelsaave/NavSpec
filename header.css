@@ -21,6 +21,10 @@
     line-height: 25px;
 }
 
+.header a:hover{
+    cursor: pointer;
+}
+
 img{
     width: 45px;
     height: 45px;
