@@ -1,5 +1,9 @@
 
 /* Header container */
+.body{
+    margin:0;
+}
+
 .header {
     overflow: hidden;
     /*left and right 22px bottom 10px top 22px*/
