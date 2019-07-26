@@ -1,0 +1,25 @@
+{
+  "name": "header",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/raquelsaave/NavSpec.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/raquelsaave/NavSpec/issues"
+  },
+  "homepage": "https://github.com/raquelsaave/NavSpec#readme",
+  "devDependencies": {
+    "grunt": "^1.0.4",
+    "grunt-stylelint": "~0.11.0",
+    "stylelint": "~10.1.0",
+    "stylelint-config-recommended": "~2.2.0"
+  }
+}
