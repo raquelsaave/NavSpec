@@ -8,9 +8,11 @@
 	line-height: 1.9;
 	margin-bottom: 2rem;
 	text-rendering: optimizeSpeed;
+	/*Span*/
+	margin-top: 64px;
 }
 
-.article .article-body {
+.article-body {
 	border-top: solid #d5d7d8 1px;
 	margin-top: 30px;
 }
@@ -19,16 +21,211 @@
 	max-width: 100%;
 }
 
+.article-category {
+	font-weight: bold;
+	color: #505050;
+	/* margin-top: 72px;
+	margin-bottom: 48px; */
+	letter-spacing: -0.010625rem;
+	font-size: 14px;
+}
+
+.article-header {
+	font-weight: bold;
+	letter-spacing: -0.010625rem;
+	font-size: 27px;
+	line-height: 1;
+	margin-bottom: 16px;
+	text-align: left;
+	max-width: 280px;
+	/*span*/
+	margin-top: 24px;
+}
+
+.article-byline {
+	font-weight: lighter;
+	font-size: 15px;
+	color: #787878;
+	letter-spacing: -0.010625rem;
+}
+
+.article-date {
+	font-weight: lighter;
+	font-size: 12px;
+	color: #a0a0a0;
+	/* margin-top: 16px; */
+	/* margin-bottom: 40px; */
+}
+
+.featured-image {
+	margin-top: 40px;
+}
+
+.article-author {
+	font-size: 15px;
+	font-weight: 400;
+	color: #787878;
+	letter-spacing: -0.010625rem;
+}
+
+.article.article--premium {
+	text-align: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+
+
+.article--premium .article-category {
+	font-size: 14px;
+	text-align: center;
+}
+
+.article--premium .article-header {
+	font-size: 27px;
+	max-width: 280px;
+	text-align: center;
+	font-weight: bold;
+	letter-spacing: -0.010625rem;
+	line-height: 1;
+	margin-bottom: 16px;
+	/*Span margin*/
+	margin-top: 24px;
+}
+
+.article--premium.article-byline {
+	font-size: 15px;
+}
+
+.article--premium .article-author {
+	font-size: 15px;
+	font-weight: 400;
+	color: #787878;
+	letter-spacing: -0.010625rem;
+}
+
+.article--premium .article-date {
+	font-size: 12px;
+	font-weight: lighter;
+	color: #787878;
+	text-align: center;
+}
+
+.article--premium .article-long-read {
+	font-weight: lighter;
+	font-size: 12px;
+	color: #787878;
+	text-align: center;
+}
+
+.no-show{
+	display: none;
+
+}
+.show {
+	display: -webkit-box;
+}
 @media screen and (min-width: 768px) {
 	.article {
 		width: 50%;
 		margin-right: 40%;
 		margin-left: 10%;
+		margin-top: 72px;
 	}
-	
 	.article.article--premium, .article.article--big-idea {
-		width: 610px;
+		/*width: 610px;*/
+		width: 900px;
 		margin-right: auto;
 		margin-left: auto;
+	}
+	.article-category {
+		font-weight: bold;
+		color: #505050;
+		/* margin-top: 72px;
+		margin-bottom: 48px; */
+		letter-spacing: -0.010625rem;
+	}
+	.article-header {
+		font-weight: bold;
+		letter-spacing: -0.010625rem;
+		font-size: 46px;
+		line-height: 1;
+		margin-bottom: 16px;
+		text-align: left;
+		max-width: 560px;
+		/*Span margin*/
+		margin-top: 48px;
+	}
+	.article--premium .article-category {
+		text-align: center;
+	}
+	.article--premium .article-header {
+		text-align: center;
+		max-width: 610px;
+		font-weight: bold;
+		letter-spacing: -0.010625rem;
+		font-size: 46px;
+		line-height: 1;
+		margin-bottom: 16px;
+		/*Span margin*/
+		margin-top: 48px;
+	}
+	/* .article.article--premium {
+		text-align: center;
+	} */
+	.article--premium .article-dek, .article--premium .article-author {
+		font-weight: lighter;
+		font-size: 20px;
+		color: #787878;
+		letter-spacing: -0.010625rem;
+		max-width: 900px;
+		text-align: center;
+	}
+	.article--premium .article-date {
+		font-weight: lighter;
+		font-size: 14px;
+		color: #787878;
+		text-align: center;
+	}
+	.article--premium .article-long-read {
+		font-weight: lighter;
+		font-size: 14px;
+		color: #787878;
+		text-align: center;
+	}
+
+
+	/* .article--premium .featured-image {
+		margin-top: 40px;
+	} */
+	.article--premium .no-show {
+		display: -webkit-box;
+	}
+	.show {
+		display: none;
+	}
+	.article-byline {
+		font-weight: lighter;
+		font-size: 20px;
+		color: #787878;
+		letter-spacing: -0.010625rem;
+	}
+	.article-author {
+		font-weight: 400;
+		font-size: 20px;
+		color: #787878;
+		letter-spacing: -0.010625rem;
+	}
+	.article-date {
+		font-weight: lighter;
+		font-size: 14px;
+		color: #a0a0a0;
+		margin-top: 16px;
+		/* margin-bottom: 40px; */
+	}
+	.featured-image {
+		/*span margin*/
+		margin-top: 40px;
 	}
 }
