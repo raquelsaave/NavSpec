@@ -6,6 +6,20 @@ body {
 	margin: 0;
 }
 
+.ad-wrapper {
+	background-color: #ebf0f0;
+	padding: 24px 0;
+}
+
+.ad-wrapper .ad {
+	margin-right: 20px;
+	margin-left: 20px;
+}
+
+.ad-wrapper .ad img {
+  width: 100%;
+}
+
 .article {
 	width: auto;
 	margin-right: 20px;
@@ -118,10 +132,14 @@ body {
 }
 
 @media screen and (min-width: 768px) {
+	.ad-wrapper .ad {
+    max-width: calc(100% - 100px);
+		margin: 0 auto;
+	}
+	
 	.article {
-		width: 50%;
-		margin-right: 40%;
-		margin-left: 10%;
+		width: 668px;
+    margin-left: 50px;
 	}
 	.article.article--premium, .article.article--big-idea {
 		/* width: 610px; */
@@ -185,3 +203,5 @@ body {
 		margin-bottom: 64px;
 	}
 }
+
+
