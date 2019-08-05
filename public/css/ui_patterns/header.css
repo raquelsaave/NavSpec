@@ -1,27 +1,8 @@
-/* Header container */
-
-body {
-	margin: 0;
-}
-
-ul {
-	margin: 0;
-	padding: 0;
-	list-style:none ;
-}
-
 .header {
 	padding: 22px 22px 10px 22px;
 	font-family: benton-sans, sans-serif;
 	border-top: solid #e5e5e5 1px;
 	border-bottom: solid #e5e5e5 1px;
-}
-
-.sticky {
-	position: sticky;
-	top: 0px;
-	background-color: #ffffff;
-	z-index: 2;
 }
 
 .header:after {
@@ -79,14 +60,6 @@ ul {
 	padding-right: 20px;
 }
 
-.tablet-up {
-	display: none;
-}
-
-.desktop-up {
-	display: none;
-}
-
 .nav-desktop {
 	list-style: none;
 }
@@ -118,9 +91,6 @@ ul {
 /*Breakpoint: 768px*/
 
 @media only screen and (min-width: 768px) {
-	.tablet-up {
-		display: -webkit-box;
-	}
 	.header .nav-header {
 		font-size: 18px;
 		font-weight: bold;
@@ -158,9 +128,6 @@ ul {
 /*Breakpoint: 1024px*/
 
 @media only screen and (min-width: 1024px) {
-	.desktop-up {
-		display: inline-table;
-	}
 	.nav {
 		overflow: hidden;
 		padding: 0px;

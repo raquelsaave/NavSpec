@@ -1,0 +1,30 @@
+.utility-bar {
+	margin-top: 16px;
+	padding-left: 24px;
+}
+
+.icon-img {
+	width: 17px;
+	height: 17px;
+}
+
+.bar-item {
+	margin-top: 5px;
+	margin-bottom: 24px;
+	text-align: center;
+}
+
+.bar-item:hover {
+	cursor: pointer;
+}
+
+.icon-name {
+	font-size: 12px;
+	color: #282828;
+	font-weight: lighter;
+	padding-top: 8px;
+}
+
+.last-one {
+	margin-bottom: 0px;
+}

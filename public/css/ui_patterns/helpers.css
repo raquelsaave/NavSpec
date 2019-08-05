@@ -1,0 +1,50 @@
+.relative {
+	position: relative;
+}
+
+.absolute {
+	position: absolute;
+	z-index: -1;
+	right: 20%;
+}
+
+.sticky {
+	position: sticky;
+	top: 0px;
+	background-color: #ffffff;
+	z-index: 2;
+}
+
+.no-show {
+	display: none;
+}
+
+.show {
+	display: -webkit-box;
+}
+
+.tablet-up {
+	display: none;
+}
+
+.desktop-up {
+	display: none;
+}
+
+@media screen and (min-width: 768px) {
+	.no-show {
+		display: -webkit-box;
+	}
+	.show {
+		display: none;
+	}
+	.tablet-up {
+		display: -webkit-box;
+	}
+}
+
+@media only screen and (min-width: 1024px) {
+	.desktop-up {
+		display: inline-table;
+	}
+}
