@@ -6,7 +6,8 @@ module.exports = function (grunt) {
     watch: {
     },
     stylelint: {
-			all: ["*.css"]
+      all: ["public/css/*.css"],
+      all: ["public/css/ui_patterns/*.css"]
 		}
   });
 
