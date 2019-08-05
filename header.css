@@ -7,6 +7,7 @@ body {
 ul {
 	margin: 0;
 	padding: 0;
+	list-style:none ;
 }
 
 .header {
@@ -14,6 +15,13 @@ ul {
 	font-family: benton-sans, sans-serif;
 	border-top: solid #e5e5e5 1px;
 	border-bottom: solid #e5e5e5 1px;
+}
+
+.sticky {
+	position: sticky;
+	top: 0px;
+	background-color: #ffffff;
+	z-index: 2;
 }
 
 .header:after {
@@ -151,7 +159,7 @@ ul {
 
 @media only screen and (min-width: 1024px) {
 	.desktop-up {
-		display: -webkit-box;
+		display: inline-table;
 	}
 	.nav {
 		overflow: hidden;
