@@ -31,6 +31,14 @@
 	display: none;
 }
 
+.article-bio-show {
+	display: none;
+}
+
+.article-bio-noshow {
+	display:inline-block;
+}
+
 @media screen and (min-width: 768px) {
 	.no-show {
 		display: -webkit-box;
@@ -40,6 +48,12 @@
 	}
 	.tablet-up {
 		display: -webkit-box;
+	}
+	.article-bio-show {
+		display: block;
+	}
+	.article-bio-noshow {
+		display: none;
 	}
 }
 
