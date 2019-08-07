@@ -24,6 +24,23 @@
 	text-rendering: optimizeSpeed;
 }
 
+/* P A R R A F O */
+.article p {
+	line-height: 1.8;
+	font-size: 16px;
+	margin-top: 0;
+	margin-bottom: 40px;
+	color: #282828;
+	text-align: justify;
+}
+
+/* I N L I N E    L I N K */
+.article p a {
+	/* text-decoration: underline;
+	color: ; */
+	color: #282828;
+	border-bottom: 3px solid #c3dddb;
+}
 /* S T A N D A R D */
 
 .article-body {
