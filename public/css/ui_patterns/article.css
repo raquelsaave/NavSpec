@@ -36,8 +36,6 @@
 
 /* I N L I N E    L I N K */
 .article p a {
-	/* text-decoration: underline;
-	color: ; */
 	color: #282828;
 	border-bottom: 3px solid #c3dddb;
 }
