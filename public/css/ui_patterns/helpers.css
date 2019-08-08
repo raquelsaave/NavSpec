@@ -8,6 +8,13 @@
 	right: 20%;
 }
 
+/* .absolute-bio {
+	position: absolute;
+	z-index: 1;
+	right: 20%;
+	bottom: 500px;
+} */
+
 .sticky {
 	position: sticky;
 	top: 0px;
@@ -31,12 +38,14 @@
 	display: none;
 }
 
-.article-bio-show {
-	display: none;
-}
-
 .article-bio-noshow {
 	display:inline-block;
+}
+.border-left {
+	border-left: solid #d5d7d8 1px;
+}
+.float-right {
+	float: right;
 }
 
 @media screen and (min-width: 768px) {
@@ -48,9 +57,6 @@
 	}
 	.tablet-up {
 		display: -webkit-box;
-	}
-	.article-bio-show {
-		display: block;
 	}
 	.article-bio-noshow {
 		display: none;
