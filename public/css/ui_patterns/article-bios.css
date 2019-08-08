@@ -1,0 +1,67 @@
+.article-bios {
+	margin: 48px 0px 48px 48px;
+	text-align: left;
+	padding-left: 24px;
+	display: none
+}
+
+.bottom-bio {
+	display: inline-block;
+	margin-left: 0px;
+	padding-left: 0px;
+	margin-top: 8px;
+}
+
+.headshot {
+	width: 70px;
+	height: 70px;
+	border-radius: 50%;
+	/* mask-image: url(/public/images/author-img.PNG), linear-gradient(#C3DDDB, transparent); */
+}
+
+.author-name {
+	font-weight: bold;
+	font-size: 14px;
+}
+
+.bio-text {
+	font-family: lava-regular;
+	font-size: 14px;
+	letter-spacing: -0.010625rem;
+	line-height: 1.333;
+	/*Layout*/
+	width: 312px;
+	padding: 16px 0px 16px 0px;
+}
+
+.twitter-icon {
+	height: 11px;
+	width: 11px;
+	margin-right: 16px;
+}
+
+.twitter-handle {
+	font-size: 14px;
+	font-family: benton-sans, sans-serif;
+}
+
+@media screen and (min-width: 768px) {
+	/*Bottom bio */
+	.float-left {
+		float: left;
+	}
+	.top-margin {
+		margin-top: 16px;
+	}
+	.twitter-icon, .bio-text, .author-name {
+		font-size: 15px;
+	}
+	.article-bio-noshow {
+		display: none;
+	}
+	.article-bios {
+		display: block;
+		float: right;
+	}
+
+}
