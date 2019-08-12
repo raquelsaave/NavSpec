@@ -1,6 +1,7 @@
 .utility-bar {
 	margin-top: 16px;
-	padding-left: 24px;
+	display: flex;
+	padding-bottom: 16px;
 }
 
 .icon-img {
@@ -9,8 +10,7 @@
 }
 
 .bar-item {
-	margin-top: 5px;
-	margin-bottom: 24px;
+	margin: 8px;
 	text-align: center;
 }
 
@@ -25,6 +25,22 @@
 	padding-top: 8px;
 }
 
-.last-one {
-	margin-bottom: 0px;
+@media screen and (min-width: 768px) {
+	.bar-item {
+		margin-left: 12px;
+		margin-right: 12px;
+	}
+}
+
+@media only screen and (min-width: 1024px) {
+	.utility-bar {
+		display: block;
+		padding-left: 24px;
+		padding-bottom: 0px;
+	}
+	.bar-item {
+		margin-top: 5px;
+		margin-bottom: 24px;
+		margin-left: 0px;
+	}
 }
